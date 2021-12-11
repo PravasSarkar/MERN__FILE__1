@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* font-family: 'Rampart One', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#Navbar{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(59, 59, 59);
+    overflow: hidden;
+}
+
+.Navbar-wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar-Branding{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Rampart One', cursive;
+}
+
+.Navbar-MenuItems ul li{
+    display: inline;
+}
+
+.Navbar-MenuItems ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+#fullwrapper{
+    width: 100%;
+    height: 100%;
+}
+.herosection{
+    max-width: 100vw;
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../bg.jpg"),rgb(0, 0, 0 , 0.5);
+    background-blend-mode: darken;
+}
+
+.herosection h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+.card-section{
+    margin-top: 100px;
+    display: flex;
+
+}
+
+.card-wrapper{
+    background-color: rgb(191, 245, 255);
+    margin: 20px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(143, 143, 143);
+}
+.card-wrapper h1{
+    margin-bottom: 30px ;
+}
+
+.card-button button{
+    background-color: #3498db;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.card-button button:hover{
+    background-color: #1e618d;
+}
+
+.register-wrapper{
+    width: 100%;
+    height: 93.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outlinegradiant{
+    width: 1000px;
+    height: 50vh;
+    background-image: linear-gradient(to right, #006eff , #00a8ff);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerform{
+    width: 80%;
+    height: 80%;
+    background-color: #dcdde1;
+    border-radius: 300px 10px 10px 300px ;
+    padding: 50px 0;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.formdiv{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fristpart{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input{
+    padding: 5px;
+}
+
+.secretpage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

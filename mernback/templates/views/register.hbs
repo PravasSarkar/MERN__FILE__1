@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{>header}}
+</head>
+<body>
+    {{>navbar}}
+    <div class="register-section container">
+        <div class="register-wrapper">
+            <div class="outlinegradiant">
+                <div class="innerform">
+                    Employee Registration
+                    <form class="formdiv" action="/register" method="POST">
+                        
+                        <div class="fristpart">
+                        <div class="firstname">
+                            <input type="text" name="fname" id="fname" placeholder="FIRST NAME">
+                        </div>
+                        <div class="lastname">
+                            <input type="text" name="lname" id="lname" placeholder="LAST NAME">
+                        </div>
+                        <div class="email">
+                            <input type="text" name="email" id="email" placeholder="EMAIL">
+                        </div>
+                        <div class="gender">
+                            <input type="radio" name="gender" id="male" value="male">MALE
+                            <input type="radio" name="gender" id="female" value="female">FEMALE
+                        </div>
+                        </div>
+                        <div class="fristpart">
+                        <div class="phone">
+                            <input type="text" name="phone" id="phone" placeholder="PHONE">
+                        </div>
+                        <div class="yourage">
+                            <input type="text" name="age" id="age" placeholder="YOUR AGE">
+                        </div>
+                        <div class="password">
+                            <input type="text" name="password" id="password" placeholder="PASSWORD">
+                        </div>
+                        <div class="cpassword">
+                            <input type="text" name="cpassword" id="cpasswrod" placeholder="CONFIRM PASSWORD">
+                        </div>
+                        <button>submit</button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
